@@ -37,3 +37,9 @@ name = "cloudflare-docker-proxy-staging"
 [env.staging.vars]
 MODE = "staging"
 TARGET_UPSTREAM = ""
+
+# ================= 新增这部分 =================
+[assets]
+directory = "./dist"
+binding = "ASSETS"
+# ===========================================
